@@ -1,4 +1,4 @@
-# PaperStage — deploy notes (NOT yet deployed)
+# PaperStage — deploy notes (DEPLOYED 2026-11-06)
 
 Target: the same EC2 box as SnapDuo and Starlight Stories
 (api.newkwlab.com), wired exactly like duo-web / book-web: a systemd
