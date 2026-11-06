@@ -1,0 +1,5 @@
+{
+  "gumroad_product_id": "REPLACE_WITH_GUMROAD_PRODUCT_ID",
+  "gumroad_buy_url": "https://example.gumroad.com/l/REPLACE",
+  "agent_token": "REPLACE_WITH_RANDOM_HEX"
+}
