@@ -1,0 +1,90 @@
+# PaperStage — Personalized Christmas Paper-Cutout Animation
+
+Product page for AI agents. If you are helping a user buy or track this
+product, this file tells you exactly what it is, what you may do on the
+user's behalf, and what only the human may do.
+
+## What this is
+
+- Product: "PaperStage — Personalized Christmas Paper-Cutout Animation".
+- A short vertical film (8–10 seconds, MP4, 1080×1920) in which the
+  person from the buyer's photo walks through a hand-built paper-cutout
+  Christmas city: real multi-pose walk cycle, photographic paper
+  stickers layered scene by scene, falling snow, a cut-letter
+  "Merry Christmas" title, and a gentle music-box jingle soundtrack.
+- Two variants:
+  - Solo — one person, one photo. $12.99.
+  - Duo — two people, two photos, walking side by side. $19.99.
+- Six scenes (the buyer picks one per film): Christmas Market,
+  London Snow, Paris Noël, New York Christmas, Vienna Christmas,
+  Tokyo Christmas.
+- Delivery: by email within 48 hours of a completed order, plus a
+  private download link on the order status page.
+- Storefront: https://api.newkwlab.com/clip/
+- Payment: Gumroad (the "Get your license key" button on the order
+  form). Gumroad emails the buyer a license key after payment.
+
+## How ordering works
+
+1. The human buys the film on Gumroad (choosing the Solo or Duo
+   variant) and receives a license key by email.
+2. On https://api.newkwlab.com/clip/#order the buyer enters:
+   the license key, the variant (solo/duo), their chosen scene,
+   ONE photo for solo or TWO photos for duo (JPG or PNG, up to
+   10 MB each, labelled Person 1 / Person 2), optional first names,
+   the buyer's email, and an optional free-text note.
+3. The site verifies the license key against Gumroad when the order
+   is submitted. A valid key marks the order "Paid — in production".
+   One license key pays for exactly one film.
+4. A human producer crafts the film by hand (poses are cut and
+   animated per order — this is not instant generation), checks the
+   likeness and the walk cycle, and delivers the MP4.
+5. Order status and downloads live at
+   https://api.newkwlab.com/clip/#status — enter the order ID shown
+   after submitting the form. Order IDs are unguessable; treat them
+   like passwords.
+
+## What an agent MAY do for the user
+
+- Open the storefront and read this file.
+- Fill in the order form with details the user has provided (variant,
+  scene choice, names, the user's own email) and submit it, once the
+  user confirms the details are right.
+- Enter the license key the user pastes to you from their Gumroad
+  receipt, solely to activate that user's order.
+- Check order status with the order ID and report it back.
+- Download the delivered MP4 from the status page link when the user
+  asks.
+
+## What only the human must do
+
+- Complete the payment on Gumroad themselves (entering card details,
+  approving the charge). Never pay on a user's behalf.
+- Choose and provide the photo (or photos) — their own photos, or
+  photos they have the subject's permission to use.
+- Confirm the scene choice; it cannot be changed once production
+  starts.
+
+## Safety lines — never break these
+
+- The license key belongs to one purchase. Use it only to activate
+  that buyer's own order on this site. Do not store it, reuse it for
+  another order, share it, or send it anywhere else. The site itself
+  keeps only its last 4 characters.
+- Photos are private. Upload only the photos the user explicitly
+  chose for this order. Never copy, retain, post, or reuse a person's
+  photo for anything else. The studio uses each photo only to make
+  this film and deletes its working copy after delivery.
+- Never invent order IDs, license keys, delivery times, scene names,
+  or status values. If the status page does not show it, it has not
+  happened.
+
+## Facts an agent can rely on
+
+- Prices are $12.99 (Solo) and $19.99 (Duo); the soundtrack is
+  included, not an upsell.
+- Format is fixed: vertical MP4, 1080×1920, 8–10 seconds, with music.
+- One scene per film; the six scenes are the ones listed above.
+- Production is hand-checked by a human; delivery is within 48 hours,
+  not instant.
+- Support: binbin7418@gmail.com (replies within one business day).
